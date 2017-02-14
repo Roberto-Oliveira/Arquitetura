@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Portal">
+  <DataContextMoniker Name="/PortalDataContext" />
+  <nestedChildShapes>
+    <classShape Id="62303a6d-6a6f-44cf-ab93-1731502ee1f8" absoluteBounds="2.75, 2.25, 2, 3.23266845703125">
+      <DataClassMoniker Name="/PortalDataContext/vw_folha_pagamento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c3594a97-f8d1-42d5-8451-7c55b1be5988" absoluteBounds="2.765, 2.71, 1.9700000000000002, 2.67266845703125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

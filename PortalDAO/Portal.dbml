@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="bd_Defensoria_Transparencia" Class="PortalDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=s744;Initial Catalog=bd_Defensoria_Transparencia;User ID=sa" SettingsObjectName="PortalDAO.Properties.Settings" SettingsPropertyName="bd_Defensoria_TransparenciaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.vw_folha_pagamento" Member="vw_folha_pagamentos">
+    <Type Name="vw_folha_pagamento">
+      <Column Name="Matrícula" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Cargo" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Vencimento" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Subsidio" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="[Vantagens Pessoais]" Member="Vantagens_Pessoais" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="[Vantagens Cargo]" Member="Vantagens_Cargo" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="[1/3 Férias]" Member="_1_3_Férias" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="[13° Salário]" Member="_13__Salário" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="[Total Créditos]" Member="Total_Créditos" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Previdência" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="[Imposto de Renda]" Member="Imposto_de_Renda" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="[Total Descontos]" Member="Total_Descontos" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="[Rendimento Líquido]" Member="Rendimento_Líquido" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Indenizações" Type="System.Decimal" DbType="Decimal(38,2) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
